@@ -1,1 +1,1 @@
-let test = "success"
+let test = True;
