@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html>
-<body>
+	<body>
+		<h1 id="mainHeader">Politics</h1>
+		<div id="Address">  
+   		<p>This website uses your address to bring up voting records for local politicians</p>
+   		<h4>Please Type in your Address</h4>
+   		<form id="address-form" method="get">
+      	<p class="title">Enter you current U.S. Address</p>
+        <label class="full-field>
+        	<input >
+          	id="street-address"
+            name="street-address"
+            />
+        </label>
+      </form>
 
-<h1 id="mainHeader">Politics</h1>
+		</div>
 
+		<h3 id="politiciansHeader">Politicians</h3>
+		<table id="politicianTable">
+    	<tr id="cityTittleRow">
+      	<th id="cityTitleHeader" class="districtTitle">City</th>
+      </tr>
+      <tr id="mayorDataRow_1" class="politicianDataRow">
+          <td id="cityDataMayorName" class="politicianName">Jerry Merrill</td>
+          <th id="cityDataMayorTitle" class="politicianPosition">Mayor</th>
+          <td id="cityNextElectionHeader">Time to next election</td>
+          <td id="mayorNextElection" class="timeToNexElection"></td>
+       </tr>
+       <tr id="stateTitleRow">
+          <th id="countyTitleHeader" class="districtTitle">County</th>
+       </tr>
+       <tr id="countyDataRow_1" class="politicianDataRow">
+          <td id="countyCommissionerName_1" class="politicianName">Todd Smith</td>
+          <td id="countyCommissionerTitle_1" class="politicianPosition">County Commissioner Chairman</td>
 
-
-<h3 id="politiciansHeader">Politicians</h3>
-<table id="politicianTable">
-   <tr id="cityTittleRow">
-      <th id="cityTitleHeader" class="districtTitle">City</th>
-   </tr>
-   <tr id="mayorDataRow_1" class="politicianDataRow">
-      <td id="cityDataMayorName" class="politicianName">Jerry Merrill</td>
-      <th id="cityDataMayorTitle" class="politicianPosition">Mayor</th>
-      <td id="cityNextElectionHeader">Time to next election</td>
-      <td id="mayorNextElection" class="timeToNexElection"></td>
-   </tr>
-   <tr id="stateTitleRow">
-      <th id="countyTitleHeader" class="districtTitle">County</th>
-   </tr>
-   <tr id="countyDataRow_1" class="politicianDataRow">
-      <td id="countyCommissionerName_1" class="politicianName">Todd Smith</td>
-      <td id="countyCommissionerTitle_1" class="politicianPosition">County Commissioner Chairman</td>
-      
-   </tr>
-   <tr>
-      <th>State</th>
-   </tr>
-   <tr>
-      <th>Federal</th>
-   </tr>
-</table>
+       </tr>
+       <tr>
+          <th>State</th>
+       </tr>
+       <tr>
+          <th>Federal</th>
+       </tr>
+    </table>
 
 
 </body>
